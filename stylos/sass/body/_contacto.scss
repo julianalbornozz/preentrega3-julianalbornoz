@@ -1,0 +1,70 @@
+.titulo-contacto {
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $tercer-color;
+}
+
+
+.contact-form {
+    padding-bottom: 10px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.contact-form__nombre {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+    margin: 10px 0;
+}
+
+.contact-form__apellido {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+    margin: 10px 0;
+}
+
+.contact-form__email {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+    margin: 10px 0;
+}
+
+.contact-form__telefono {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+    margin: 10px 0;
+}
+
+.button-final {
+    border-radius: 20px;
+    border: none;
+    padding-top: 10px;
+}
+
+.picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+
+.persona {
+    height: 200px;
+    width: 350px;   
+    margin: 0 10px;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    font-weight: 600;
+    padding-top: 10px;
+}

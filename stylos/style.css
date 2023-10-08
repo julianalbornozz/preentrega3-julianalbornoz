@@ -1,0 +1,379 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.navbar .logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.ul-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.ul-container .paginas {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.986);
+  margin-right: 25px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ul-container .paginas:hover {
+  color: rgb(8, 224, 73);
+  transition: all ease 0.9s;
+}
+
+.pie2 {
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #b9bec2, #c2cbce, #cbd8d7, #d7e4e0, #e6f0e7);
+}
+
+.ultimo-parrafo {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+}
+.ultimo-parrafo li a {
+  padding: 30px 20px;
+  margin-left: 15x;
+  font-size: 25px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.ultima-palabra {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgb(241, 240, 232);
+}
+
+.inicio {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(195, 237, 194);
+  color: rgba(0, 0, 0, 0.986);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layoutIndex {
+  display: grid;
+  grid: "main" 5fr "footer" 1fr/auto;
+  gap: 8px;
+}
+
+.mainIndex {
+  grid-area: main;
+}
+
+.footerIndex {
+  grid-area: footer;
+  margin-top: auto;
+}
+
+.aside-barra {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+.aside-adentro {
+  font-size: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  text-align: left;
+}
+.aside-adentro a {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.boton-inicio {
+  padding-top: 20px;
+}
+
+.aside-contacto {
+  font-size: 20px;
+  padding-top: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(241, 240, 232);
+  border-color: rgba(11, 17, 14, 0.932);
+}
+
+.pie2 {
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #b9bec2, #c2cbce, #cbd8d7, #d7e4e0, #e6f0e7);
+}
+
+.ultimo-parrafo {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+}
+.ultimo-parrafo li a {
+  padding: 30px 20px;
+  margin-left: 15x;
+  font-size: 25px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.ultima-palabra {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgb(241, 240, 232);
+}
+
+.tittle {
+  text-align: center;
+  color: rgba(245, 245, 245, 0.945);
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.card {
+  height: 15rem !important;
+}
+.card .card-body {
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white;
+}
+.card .card-title {
+  background-color: white;
+}
+.card .card-text {
+  background-color: white;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0;
+  font-weight: 500;
+  a-text-decoration: none;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.layoutPresupuesto {
+  display: grid;
+  grid: "titlePrespuesto" 1fr "mainPresupuesto" 4fr "footerPresupuesto" 1fr/auto;
+  gap: 8px;
+}
+
+.titlePrespuesto {
+  grid-area: titlePrespuesto;
+}
+
+.mainPresupuesto {
+  grid-area: mainPresupuesto;
+}
+
+.footerPresupuesto {
+  grid-area: footerPresupuesto;
+}
+
+.sobremi-tittle {
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgba(245, 245, 245, 0.945);
+}
+
+.sobre-mi {
+  padding-top: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 25px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.imagen {
+  height: 200px;
+  width: 350px;
+  margin: 0 10px;
+}
+
+.parrafo-main {
+  padding-top: 30px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 200;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.pie2 {
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #b9bec2, #c2cbce, #cbd8d7, #d7e4e0, #e6f0e7);
+}
+
+.ultimo-parrafo {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+}
+.ultimo-parrafo li a {
+  padding: 30px 20px;
+  margin-left: 15x;
+  font-size: 25px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.ultima-palabra {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgb(241, 240, 232);
+}
+
+.inicio-metas {
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgba(245, 245, 245, 0.945);
+}
+
+.contenido-prin {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 25px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.imagen {
+  height: 200px;
+  width: 350px;
+  margin: 0 10px;
+}
+
+.parrafo-main {
+  padding: 10px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 200;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.titulo-contacto {
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgba(245, 245, 245, 0.945);
+}
+
+.contact-form {
+  padding-bottom: 10px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.contact-form__nombre {
+  border-radius: 20px;
+  border-color: rgb(63, 78, 79);
+  margin: 10px 0;
+}
+
+.contact-form__apellido {
+  border-radius: 20px;
+  border-color: rgb(63, 78, 79);
+  margin: 10px 0;
+}
+
+.contact-form__email {
+  border-radius: 20px;
+  border-color: rgb(63, 78, 79);
+  margin: 10px 0;
+}
+
+.contact-form__telefono {
+  border-radius: 20px;
+  border-color: rgb(63, 78, 79);
+  margin: 10px 0;
+}
+
+.button-final {
+  border-radius: 20px;
+  border: none;
+  padding-top: 10px;
+}
+
+.picture {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+.persona {
+  height: 200px;
+  width: 350px;
+  margin: 0 10px;
+}
+
+.informacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

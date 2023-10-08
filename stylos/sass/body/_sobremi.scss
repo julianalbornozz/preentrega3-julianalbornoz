@@ -1,0 +1,100 @@
+.sobremi-tittle {
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $tercer-color;
+}
+
+
+.sobre-mi {
+    padding-top: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 25px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.imagen {
+    height: 200px;
+    width: 350px;   
+    margin: 0 10px;
+}
+
+.parrafo-main {
+    padding-top: 30px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pie2 {
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #b9bec2, #c2cbce, #cbd8d7, #d7e4e0, #e6f0e7);
+}
+
+
+.ultimo-parrafo {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    li {
+        a {
+            padding: 30px 20px;
+            margin-left: 15x;
+            font-size: 25px;
+            font-weight: 500;
+            display: inline-block;
+        }
+    }
+} 
+
+
+.ultima-palabra {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(241, 240, 232);
+}

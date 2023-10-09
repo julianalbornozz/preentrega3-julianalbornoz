@@ -279,6 +279,15 @@
   justify-content: flex-end;
 }
 
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .imagen {
+    height: 150px;
+    width: 150px;
+  }
+  .imagen .parrafo-main {
+    font-size: 8px;
+  }
+}
 .contact-form {
   padding-bottom: 10px;
   margin-left: 5px;

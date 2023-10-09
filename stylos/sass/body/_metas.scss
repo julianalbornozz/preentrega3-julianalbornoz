@@ -25,3 +25,15 @@
     flex-direction: row;
     justify-content: flex-end;
 }
+
+
+@media screen and (min-width:360px) and (max-width:600px) {
+    
+    .imagen {
+        height: 150px;
+        width: 150px;
+        .parrafo-main {
+            font-size: 8px;
+        }
+    }
+}

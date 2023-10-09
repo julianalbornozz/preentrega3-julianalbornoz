@@ -53,7 +53,7 @@
   font-size: 25px;
   font-weight: 500;
   display: inline-block;
-  color: #000;
+  color: rgba(0, 0, 0, 0.986);
 }
 
 .ultima-palabra {
@@ -104,6 +104,7 @@
 .aside-adentro a {
   text-decoration: none;
   margin-left: 5px;
+  color: rgba(0, 0, 0, 0.986);
 }
 
 .pie2 {

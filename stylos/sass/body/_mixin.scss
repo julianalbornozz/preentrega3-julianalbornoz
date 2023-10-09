@@ -1,0 +1,25 @@
+@mixin encabezado () {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $tercer-color;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+
+.tittle {
+    @include encabezado();
+}
+
+.sobremi-tittle {
+    @include encabezado();
+}
+
+.inicio-metas {
+    @include encabezado();
+}
+
+.titulo-contacto {
+    @include encabezado();
+}

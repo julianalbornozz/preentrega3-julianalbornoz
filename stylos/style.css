@@ -53,6 +53,7 @@
   font-size: 25px;
   font-weight: 500;
   display: inline-block;
+  color: #000;
 }
 
 .ultima-palabra {
@@ -160,6 +161,7 @@
 }
 .info a {
   text-decoration: none;
+  color: #000;
 }
 
 .links {

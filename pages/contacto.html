@@ -17,8 +17,9 @@
 </head>
 
 <body class="inicio">
+    
     <nav>
-        <div class="navbar container-fluid">
+        <div class="navbar">
 
             <a class="navbar-brand" href="../index.html">
                 <img src="../imagenes/google (1).png" alt="Logo" class="logo d-inline-block align-text-center">
@@ -38,30 +39,42 @@
 
     <h2 class="titulo-contacto">Contacto</h2>
 
+    <form class="form">
+        <h2 class="llamame">Contactame</h2>
+        <p type="Nombre:"><input placeholder="Ingresá tu nombre"></input></p>
+        <p type="Email:"><input placeholder="Ingresá tu email"></input></p>
+        <p type="numero"><input placeholder="Ingresá tu numero"></input></p>
+        
+        <button>Enviar</button>
+        <div class="spa">
+          <span class="fa fa-phone"></span>1164131779
+          <span class="fa fa-envelope-o"></span> julianalb@gmail.com
+        </div>
+      </form>
+
+<!-- 
     <main>
+        <h3 class="titulo2-contacto">Te interesan mis servicios?</h3>
         <div class="contact-form">
             <form>
-                <p>Completá el formulario y nos pondremos en contacto</p>
-                <!-- <label for="nombre">Ingresá tu nombre</label> -->
+                <p>Contactame</p>
+            
                 <input type="text" id="nombre" placeholder="ingresá tu nombre" class="contact-form__nombre">
                 <br>
-                <!-- <label for="apellido">Ingresá tu apellido</label> -->
+       
                 <input type="apellido" id="apellido" placeholder="ingresá tu apellido" class="contact-form__apellido">
                 <br>
-                <!-- <label for="email">Ingresá tu email</label> -->
+             
                 <input required type="email" id="email" placeholder="ingresá tu email" class="contact-form__email">
                 <br>
-                <!-- <label for="telefono">Ingresá tu telefono</label> -->
-                <input required="telefono" id="telefono" placeholder="ingresá tu telefono"
-                    class="contact-form__telefono">
-                <br> 
+                <textarea name="mensaje" placeholder="Con que te puedo ayudar?" class="textarea"></textarea>
                 <label for="sumbit"></label>
                 <input type="submit" id="submit" class="button-final">
                 <br> 
             </form>
         </div>
     </main>
-    </div>
+    </div> -->
 
     <div class="picture">
         <img class="persona" src="../imagenes/contacto.png" alt="persona con telefono en mano">
@@ -91,7 +104,7 @@
 
             </div>
 
-            <p class="ultima-palabra">© Todos los derechos reservados</p>
+            <p class="ultima-palabra">© 2023 Julián Albornoz - Desarrollador web</p>
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

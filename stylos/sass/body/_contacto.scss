@@ -1,61 +1,115 @@
-
-
-.contact-form {
-    padding-bottom: 10px;
-    margin-left: 5px;
+.titulo2-contacto {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
+    color: rgba(78, 73, 73, 0.911);
+    font-size: 30px;
+    padding: 10px 0;
+    margin-left: 10px;
 }
 
-.contact-form__nombre {
-    border-radius: 20px;
-    border-color: rgb(63, 78, 79);
+
+.form {
+    width: 340px;
+    height: 440px;
+    background: #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.llamame {
     margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: #78788c;
+    border-bottom: 3px solid #78788c;
 }
 
-.contact-form__apellido {
-    border-radius: 20px;
-    border-color: rgb(63, 78, 79);
-    margin: 10px 0;
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: $tipografia-principal;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2
 }
 
-.contact-form__email {
-    border-radius: 20px;
-    border-color: rgb(63, 78, 79);
-    margin: 10px 0;
+input:focus {
+    border-bottom: 2px solid #78788c
 }
 
-.contact-form__telefono {
-    border-radius: 20px;
-    border-color: rgb(63, 78, 79);
-    margin: 10px 0;
+p:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #5a5a5a
 }
 
-.button-final {
-    border-radius: 20px;
-    border: none;
-    padding-top: 10px;
+button {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: $tipografia-principal;
+    border: 2px solid #78788c;
+    background: 0;
+    color: $cuarto-color;
+    cursor: pointer;
+    transition: all .7s
 }
+
+button:hover {
+    background: #78788c;
+    color: #fff
+}
+
+.spa {
+
+    position: absolute;
+    bottom: -40px;
+    left: -2px;
+    background: #979596;
+    color: #fff;
+    width: 300px;
+    padding: 10px 4px 10px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000;
+}
+
+span {
+    margin: 0 5px 0 15px;
+}
+
 
 .picture {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: start;
     margin-top: 10px;
 }
 
 
 .persona {
     height: 200px;
-    width: 350px;   
+    width: 350px;
     margin: 0 10px;
 }
 
 .informacion {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     list-style: none;
     font-weight: 600;
     padding-top: 10px;

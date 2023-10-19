@@ -76,7 +76,7 @@ button:hover {
 
     position: absolute;
     bottom: -40px;
-    left: -2px;
+    right: 18px;
     background: #979596;
     color: #fff;
     width: 300px;
@@ -94,7 +94,7 @@ span {
 .picture {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     margin-top: 10px;
     padding-top: 20px;
 }
@@ -103,15 +103,25 @@ span {
     height: 200px;
     width: 350px;
     margin: 0 10px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .informacion {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     list-style: none;
     font-weight: 600;
     padding-top: 10px;
+    margin: 10px;
+
 }
 
+.informacion2 {
+    list-style: none;
+    padding-bottom: 20px;
+    margin: 0 5px 0 15px;
+}

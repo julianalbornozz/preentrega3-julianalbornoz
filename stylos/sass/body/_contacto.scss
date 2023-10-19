@@ -8,11 +8,10 @@
     margin-left: 10px;
 }
 
-
 .form {
     width: 340px;
     height: 440px;
-    background: #e6e6e6;
+    background:#eaf8e9;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
     margin: calc(50vh - 220px) auto;
@@ -26,7 +25,7 @@
     margin: 10px 0;
     padding-bottom: 10px;
     width: 180px;
-    color: #78788c;
+    color: #76d673;
     border-bottom: 3px solid #78788c;
 }
 
@@ -53,7 +52,7 @@ p:before {
     display: block;
     margin: 28px 0 0;
     font-size: 14px;
-    color: #5a5a5a
+    color: #000;
 }
 
 button {
@@ -97,20 +96,22 @@ span {
     flex-direction: row;
     justify-content: start;
     margin-top: 10px;
+    padding-top: 20px;
 }
-
 
 .persona {
     height: 200px;
     width: 350px;
     margin: 0 10px;
+    padding-bottom: 20px;
 }
 
 .informacion {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: start;
     list-style: none;
     font-weight: 600;
     padding-top: 10px;
 }
+

@@ -21,12 +21,12 @@
 <body class="inicio">
 
     <nav>
-        <div class="navbar">
-
+        <div class="navbar d-none d-lg-flex ">
             <a class="navbar-brand" href="../index.html">
                 <img src="../imagenes/google (1).png" alt="Logo" class="logo d-inline-block align-text-center">
                 Julian Albornoz
             </a>
+
 
             <ul class="ul-container d-flex flex-sm-row flex-column">
                 <li><a class="paginas" href="./presupuestos.html">Presupuestos</a></li>
@@ -34,8 +34,27 @@
                 <li><a class="paginas" href="./metas.html">Metas</a></li>
                 <li><a class="paginas" href="./contacto.html">Ir a contacto</a></li>
             </ul>
-
         </div>
+
+        <div class="navbar d-flex d-lg-none justify-content-center">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-transparent p-4">
+                    <ul class="ul-container d-flex flex-column gap-3">
+                        <li><a class="paginas" href="../index.html">Inicio</a></li>
+                        <li><a class="paginas" href="./presupuestos.html">Presupuestos</a></li>
+                        <li><a class="paginas" href="./sobremi.html">Sobre mí</a></li>
+                        <li><a class="paginas" href="./metas.html">Metas</a></li>
+                        <li><a class="paginas" href="./contacto.html">Ir a contacto</a></li>
+                    </ul>
+                </div>
+              </div>
+                <div class="container m-0 justify-content-end">
+                  <button class="navbar-toggler bg-transparent border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+            </div>
+
     </nav>
     <main>
         <div class="animate__animated animate__fadeInLeft">

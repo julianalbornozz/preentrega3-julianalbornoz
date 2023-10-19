@@ -13,7 +13,7 @@
 
 .imagen {
     height: 200px;
-    width: 350px;   
+    width: 350px;
     margin: 0 10px;
 }
 
@@ -26,33 +26,6 @@
     flex-direction: row;
     justify-content: flex-end;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .pie2 {
@@ -71,6 +44,7 @@
     list-style: none;
     margin: 5px;
     padding: 10px;
+
     li {
         a {
             padding: 30px 20px;
@@ -80,12 +54,12 @@
             display: inline-block;
         }
     }
-} 
+}
 
 
 .ultima-palabra {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     background-color: rgb(241, 240, 232);
 }

@@ -21,8 +21,7 @@
 <body class="inicio">
 
     <nav>
-        <div class="navbar">
-
+        <div class="navbar d-none d-lg-flex ">
             <a class="navbar-brand" href="../index.html">
                 <img src="../imagenes/google (1).png" alt="Logo" class="logo d-inline-block align-text-center">
                 Julian Albornoz
@@ -35,14 +34,33 @@
                 <li><a class="paginas" href="./metas.html">Metas</a></li>
                 <li><a class="paginas" href="./contacto.html">Ir a contacto</a></li>
             </ul>
-
         </div>
+
+        <div class="navbar d-flex d-lg-none justify-content-center">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-transparent p-4">
+                    <ul class="ul-container d-flex flex-column gap-3">
+                        <li><a class="paginas" href="../index.html">Inicio</a></li>
+                        <li><a class="paginas" href="./presupuestos.html">Presupuestos</a></li>
+                        <li><a class="paginas" href="./sobremi.html">Sobre mí</a></li>
+                        <li><a class="paginas" href="./metas.html">Metas</a></li>
+                        <li><a class="paginas" href="./contacto.html">Ir a contacto</a></li>
+                    </ul>
+                </div>
+              </div>
+                <div class="container m-0 justify-content-end">
+                  <button class="navbar-toggler bg-transparent border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+            </div>
+
     </nav>
 
     <h1 class="sobremi-tittle">Desarrollador Web Freelance</h1>
 
     <main class="sobre-mi">
-        <div class="content">
+        <div class="content d-flex flex-column flex-lg-row justify-content-center">
 
             <p class="parrafo-main">Soy un desarrollador web destinado a mejorar los emprendimientos de pequeñas y
                 grandes
@@ -51,8 +69,8 @@
                 negocio o simplemente para darle un aspecto totalmente renovado a tu sitio web. <br>
                 Si buscas una persona responsable, centrada y con ganas de trabajar, no dudes en contar conmigo para
                 diseñar tu sitio web.</p>
-            <div data-aos="fade-left">
-                <img class="imagen" src="../imagenes/presupuesto.png" alt="persona escribiendo">
+            <div data-aos="fade-left" class=" align-self-center">
+                <img class="imagen " src="../imagenes/presupuesto.png" alt="persona escribiendo">
             </div>
         </div>
     </main>

@@ -73,6 +73,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .layoutIndex {
@@ -94,8 +95,9 @@
   font-size: 40px;
   text-align: center;
   margin: 20px 0;
-  color: whitesmoke;
+  color: rgba(0, 0, 0, 0.986);
   font-weight: 600;
+  overflow-x: hidden;
 }
 
 .aside-adentro {
@@ -103,11 +105,13 @@
   margin-right: 20px;
   text-decoration: none;
   text-align: left;
+  overflow-x: hidden;
 }
 .aside-adentro a {
   text-decoration: none;
   margin-left: 5px;
   color: rgba(0, 0, 0, 0.986);
+  overflow-x: hidden;
 }
 
 .contenido1 {
@@ -116,7 +120,8 @@
   justify-content: center;
   padding: 15px;
   margin: 10px;
-  object-fit: contain;
+  object-fit: cover;
+  overflow-x: hidden;
 }
 
 .fotito {
@@ -124,9 +129,10 @@
   width: 450px;
   display: flex;
   justify-content: center;
-  -webkit-box-shadow: 0px 0px 41px 2px rgba(0, 0, 0, 0.57);
-  -moz-box-shadow: 0px 0px 41px 2px rgba(0, 0, 0, 0.57);
-  box-shadow: 0px 0px 41px 2px rgba(0, 0, 0, 0.57);
+  border: 2px solid black;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .parraf {
@@ -136,6 +142,10 @@
   padding-top: 10px;
   font-weight: 600;
   font-size: 15px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .pie2 {
@@ -164,7 +174,7 @@
 
 .ultima-palabra {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   background-color: rgb(241, 240, 232);
 }
@@ -277,7 +287,7 @@
 
 .ultima-palabra {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   background-color: rgb(241, 240, 232);
 }
@@ -332,7 +342,7 @@
 .form {
   width: 340px;
   height: 440px;
-  background: #e6e6e6;
+  background: #eaf8e9;
   border-radius: 8px;
   box-shadow: 0 0 40px -10px #000;
   margin: calc(50vh - 220px) auto;
@@ -346,7 +356,7 @@
   margin: 10px 0;
   padding-bottom: 10px;
   width: 180px;
-  color: #78788c;
+  color: #76d673;
   border-bottom: 3px solid #78788c;
 }
 
@@ -372,7 +382,7 @@ p:before {
   display: block;
   margin: 28px 0 0;
   font-size: 14px;
-  color: #5a5a5a;
+  color: #000;
 }
 
 button {
@@ -414,18 +424,20 @@ span {
   flex-direction: row;
   justify-content: start;
   margin-top: 10px;
+  padding-top: 20px;
 }
 
 .persona {
   height: 200px;
   width: 350px;
   margin: 0 10px;
+  padding-bottom: 20px;
 }
 
 .informacion {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: start;
   list-style: none;
   font-weight: 600;
   padding-top: 10px;
@@ -435,7 +447,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: rgba(245, 245, 245, 0.945);
+  color: black;
   padding-bottom: 20px;
   font-size: 40px;
 }
@@ -444,7 +456,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: rgba(245, 245, 245, 0.945);
+  color: black;
   padding-bottom: 20px;
   font-size: 40px;
 }
@@ -453,7 +465,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: rgba(245, 245, 245, 0.945);
+  color: black;
   padding-bottom: 20px;
   font-size: 40px;
 }
@@ -462,7 +474,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: rgba(245, 245, 245, 0.945);
+  color: black;
   padding-bottom: 20px;
   font-size: 40px;
 }

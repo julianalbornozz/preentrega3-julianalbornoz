@@ -1,61 +1,65 @@
+#tarjetitas {
+  overflow-x: hidden;
+}
 
 .card {
-    height: 15rem !important;
-  
+  height: 15rem !important;
+
   .card-body {
     margin-left: 30px;
     margin-right: 30px;
     background-color: white;
   }
 
-.card-title {
+  .card-title {
     background-color: white;
-}
+  }
 
 
-.card-text {
+  .card-text {
     background-color: white;
-}
+  }
 
 
 }
 
-.info  {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 20px 0;
-    font-weight: 500;
-     a {
-        text-decoration: none;
-        color: #000;
-    }
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0;
+  font-weight: 500;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 }
 
 .links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-decoration: none;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  padding-top: 20px;
 }
 
 .layoutPresupuesto {
-  
-    display: grid;
-    grid:
-      "titlePrespuesto" 1fr
-      "mainPresupuesto" 4fr
-      "footerPresupuesto" 1fr
-      / auto;
-    gap: 8px;
-  }
-  
-  .titlePrespuesto { 
-    grid-area: titlePrespuesto;
- }
-  .mainPresupuesto { grid-area: mainPresupuesto; }
-  .footerPresupuesto { 
-    grid-area: footerPresupuesto;
+
+  display: grid;
+  grid:
+    "titlePrespuesto" 1fr "mainPresupuesto" 4fr "footerPresupuesto" 1fr / auto;
+  gap: 8px;
 }
 
+.titlePrespuesto {
+  grid-area: titlePrespuesto;
+}
+
+.mainPresupuesto {
+  grid-area: mainPresupuesto;
+}
+
+.footerPresupuesto {
+  grid-area: footerPresupuesto;
+}
